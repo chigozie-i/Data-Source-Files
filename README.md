@@ -1,4 +1,5 @@
 ![Connecting To Files](https://github.com/chigozie-i/Data-Source-Files/blob/main/Connecting%20To%20Files.png)
+
 ## OVERVIEW:
 
 This document focuses on utilizing Microsoft Power BI for data analysis, forming part of a series of documentation projects aimed at exploring various methods for connecting to your data source. This document seeks to underscore the critical significance of selecting an appropriate data source connection method and to offer comprehensive guidance on the diverse approaches available for establishing connectivity to your data source prior to initiating any essential data transformations tailored to your analytical objectives.
