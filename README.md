@@ -1,6 +1,22 @@
 ![Connecting To Files](https://github.com/chigozie-i/Data-Source-Files/blob/main/Connecting%20To%20Files.png)
 
-## OVERVIEW:
+## Introduction:
+
+In today's data-driven world, organizations rely heavily on insights derived from data to drive strategic decision-making and enhance operational efficiency. Microsoft Power BI stands as a powerful tool in this landscape, offering robust capabilities for connecting to various data sources, transforming raw data into meaningful insights, and creating interactive visualizations and reports.
+
+## Table of Contents
+
+- [Overview](#Overview)
+- [Data Sources](#Data-Sources)
+- [Connecting To Files](#Connecting-To-Files)
+- [Connect to File Data](#How-To-Connect-To-Data-In-A-File)
+- [Connection Path](#File-Connection-Path)
+- [Storage Mode](#Data-Storage-Mode)
+- [Lessons Learnt](#Lessons-Learnt)
+- [Conclusion](#Conclusion)
+- [Reference](#Reference)
+
+## Overview:
 
 This document focuses on utilizing Microsoft Power BI for data analysis, forming part of a series of documentation projects aimed at exploring various methods for connecting to your data source. This document seeks to underscore the critical significance of selecting an appropriate data source connection method and to offer comprehensive guidance on the diverse approaches available for establishing connectivity to your data source prior to initiating any essential data transformations tailored to your analytical objectives.
 
@@ -9,7 +25,7 @@ The primary goal of this endeavor is to establish a dependable repository for yo
 The method by which you establish connectivity to your data source holds considerable importance, as it directly influences the efficiency of your analytical tools and shapes the user experience. Moreover, it plays a pivotal role in determining the effectiveness, precision, and trustworthiness of the analytical processes and resulting reports.
 
 
-## DATA SOURCES:
+## Data Sources:
 Sometimes, you may be required to build Microsoft Power BI reports, with data sourced from various databases and files. These data sources vary, with some housed in Microsoft SQL Server and others in Microsoft Excel, yet they are all interconnected.
 
 ![Data Sources](https://github.com/chigozie-i/Data-Source-Files/blob/main/Data%20Sources.png)
@@ -26,7 +42,7 @@ Prior to report creation, it's essential to extract data from the various data s
 
 This documentation project focuses on Files.
 
-## CONNECTING TO FILES:
+## Connecting To Files:
 
 Companies frequently export and archive data into files, with one common format being a flat file. A flat file consists of a single data table where each row conforms to the same structure, devoid of any hierarchical organization. You're likely acquainted with prevalent types of flat files, including comma-separated values (.csv) files, delimited text (.txt) files, and fixed-width files. Additionally, output files from various applications, such as Microsoft Excel workbooks (.xlsx), also fall into this category.
 Suppose the Sales department at Imaginary Inc. possesses a flat file containing sales data. They've tasked you with building Power BI reports using this dataset alongside data from other sources. 
@@ -44,7 +60,7 @@ Your Excel files might exist in one of the following locations:
 
 Utilizing cloud solutions like OneDrive or SharePoint Team Sites proves to be the most efficient method for maintaining synchronization between your files and the associated semantic model, reports, and dashboards in Power BI. Nevertheless, if your data experiences infrequent changes, saving files locally on your computer remains a viable alternative.
 
-## HOW TO CONNECT TO DATA IN A FILE:
+## How To Connect To Data In A File:
 
 Connecting to a data source, starts with Get Data. On the Home tab, select Get data and then the option that you require (such as Text/CSV or XML). In this case it’s Excel Workbook.
 
@@ -60,7 +76,7 @@ Upon selecting the check box(es) of the table(s) you wish to import into Power B
 
 ![Navigator](https://github.com/chigozie-i/Data-Source-Files/blob/main/Navigator%20window.png)
 
-## FILE CONNECTION PATH:
+## File Connection Path:
 
 During development or in the event of a change in file storage location, you may find it necessary to modify the source file's location for a data source. To ensure the continued accuracy of your reports, it's important to update the file connection paths in Power BI.
 When updating a file path, it's crucial to reconnect to the same file with its original structure intact. Any modifications to the file's structure, such as column deletions or renaming, can disrupt the reporting model.
@@ -81,7 +97,7 @@ The Data source settings window pops up, select Change Source, and define the so
 
 ![File Path 2](https://github.com/chigozie-i/Data-Source-Files/blob/main/File%20Path%202.png)
 
-## DATA STORAGE MODE:
+## Data Storage Mode:
 
 Within Microsoft Power BI Desktop, you have the capability to designate the storage mode for a table, which governs how the software temporarily retains table data in-memory for reports. When establishing a connection to your data source, you can opt for one of three storage modes:
 
@@ -104,7 +120,7 @@ In the resulting Properties pane, selecting which mode that you want to use from
 
 ![Storage Mode 3](https://github.com/chigozie-i/Data-Source-Files/blob/main/Storage%20mode%203.png)
 
-## LESSONS LEARNT:
+## Lessons Learnt:
 
 This project aims to contribute to a deeper understanding of data analytics with Power BI. Some key reflections include:
 
@@ -122,10 +138,10 @@ Moving forward, potential areas for further improvement include:
 
 3. Collaboration and Knowledge Sharing: Encouraging collaboration among team members and fostering a culture of knowledge sharing can accelerate learning and innovation within the organization. Establishing forums, training sessions, and documentation repositories can facilitate the exchange of best practices and insights among stakeholders.
 
-## CONCLUSION:
+## Conclusion:
 This project series delves into various data sources, aiming to uncover valuable insights into the complexities of data analytics using Power BI. It underscores the significance of efficient data source connectivity and ongoing learning. Through reflection on lessons gleaned and pinpointing areas for enhancement, organizations can fully leverage Power BI's capabilities to facilitate informed decision-making and attain strategic goals.
 
-## REFERENCE:
+## Reference:
 - https://learn.microsoft.com
 - https://docs.microsoft.com
 
