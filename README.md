@@ -65,11 +65,14 @@ During development or in the event of a change in file storage location, you may
 When updating a file path, it's crucial to reconnect to the same file with its original structure intact. Any modifications to the file's structure, such as column deletions or renaming, can disrupt the reporting model.
 
 Power Query provides many ways for you to accomplish this task. 
-•	Data source settings.
-•	Query settings.
-•	Advanced Editor.
+
+- Data source settings
+- Query settings
+- Advanced Editor
+
 
 In the Queries section of Power BI desktop Home tab, select Transform data, and then Data source settings.
+
 
 ![File Path](https://github.com/chigozie-i/Data-Source-Files/blob/main/File%20Path.png)
 
@@ -80,9 +83,10 @@ The Data source settings window pops up, select Change Source, and define the so
 ## DATA STORAGE MODE:
 
 Within Microsoft Power BI Desktop, you have the capability to designate the storage mode for a table, which governs how the software temporarily retains table data in-memory for reports. When establishing a connection to your data source, you can opt for one of three storage modes:
-• Import
-• DirectQuery
-• Dual (Composite)
+
+- Import
+- DirectQuery
+- Dual (Composite)
 
 The prevalent method for utilizing data in Power BI involves importing it into a Power BI semantic model. Importing data entails storing it within the Power BI file and subsequently publishing it alongside the Power BI reports. This process facilitates direct interaction with the data. However, this approach may not be suitable for all organizations. It's crucial to ensure that business requirements are met when importing data into Power BI.
 
@@ -121,6 +125,6 @@ Moving forward, potential areas for further improvement include:
 This project series delves into various data sources, aiming to uncover valuable insights into the complexities of data analytics using Power BI. It underscores the significance of efficient data source connectivity and ongoing learning. Through reflection on lessons gleaned and pinpointing areas for enhancement, organizations can fully leverage Power BI's capabilities to facilitate informed decision-making and attain strategic goals.
 
 ## REFERENCE:
-https://learn.microsoft.com
-https://docs.microsoft.com
+- https://learn.microsoft.com
+- https://docs.microsoft.com
 
