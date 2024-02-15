@@ -141,9 +141,9 @@ Moving forward, potential areas for further improvement include:
 ## Conclusion:
 This project series delves into various data sources, aiming to uncover valuable insights into the complexities of data analytics using Power BI. It underscores the significance of efficient data source connectivity and ongoing learning. Through reflection on lessons gleaned and pinpointing areas for enhancement, organizations can fully leverage Power BI's capabilities to facilitate informed decision-making and attain strategic goals.
 
-## Reference:
-- https://learn.microsoft.com
-- https://docs.microsoft.com
+## Reference:  
+https://learn.microsoft.com  
+https://docs.microsoft.com
 
 
 
