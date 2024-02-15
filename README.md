@@ -146,9 +146,11 @@ This project series delves into various data sources, aiming to uncover valuable
 - https://docs.microsoft.com
 
 
-## Help and Support
 
-### Did you find this document helpful? Leave a Star
+
+### Help and Support
+
+#### Did you find this document helpful? Leave a Star
 
 [![GitHub stars](https://img.shields.io/github/stars/chigozie-i/Data-Source-Files.svg?style=social)](https://github.com/chigozie-i/Data-Source-Files/stargazers)
 
