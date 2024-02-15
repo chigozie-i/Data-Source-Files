@@ -148,11 +148,11 @@ This project series delves into various data sources, aiming to uncover valuable
 
 
 
-### Help and Support
+## Help and Support
 
 #### Did you find this document helpful? Leave a Star
 
 [![GitHub stars](https://img.shields.io/github/stars/chigozie-i/Data-Source-Files.svg?style=social)](https://github.com/chigozie-i/Data-Source-Files/stargazers)
 
-You may make a contribution to help us improve on our documentation by submitting a pull request.
+#### You may make a contribution to help us improve on our documentation by submitting a pull request.
 
